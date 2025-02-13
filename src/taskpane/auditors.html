@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auditors Add-in</title>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <script src="auditors.js"></script>
+</head>
+<body>
+    <h1>Auditors Add-in</h1>
+    <button id="advanceLookup">Advance Lookup</button>
+    <div id="lookupUI" style="display:none;">
+        <button id="createNewGroup">Create New Group</button>
+        <button id="existingGroup">Existing Group</button>
+    </div>
+    <div id="newGroupUI" style="display:none;">
+        <input type="text" id="groupName" placeholder="Group Name">
+        <button id="addCategory">Add Category</button>
+        <button id="saveGroup">Save Group</button>
+    </div>
+</body>
+</html>
